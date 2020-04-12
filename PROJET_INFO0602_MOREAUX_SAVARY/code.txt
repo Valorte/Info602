@@ -1,0 +1,35 @@
+proc avancer(x : entier)
+    i = 0
+    tantque(i < x)
+        avance()
+        i = i + 1
+    fintantque
+finproc
+
+proc main()
+    avance()
+    droite()
+    avancer(3)
+    droite()
+    avancer(3)
+    gauche()
+    avance()
+    droite()
+    prendre()
+    droite()
+    droite()
+    avancer(7)
+    gauche()
+    poser()
+finproc
+
+void avancer(int x) 
+{
+    int i = 0;
+    
+    while(i < x)
+    {
+        avance();
+        i = i +1;
+    }
+}
